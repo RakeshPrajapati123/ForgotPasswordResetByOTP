@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "VerifyOTP";
+}
+
+<div class="col-md-4">
+    <div class="card shadow p-4">
+
+        <h3 class="text-center mb-4">Verify OTP</h3>
+
+        <form method="post" action="/Account/VerifyOtp">
+
+            <div class="mb-3">
+                <input type="text" name="otp" class="form-control" placeholder="Enter OTP" required>
+            </div>
+
+            <button class="btn btn-info w-100">Verify OTP</button>
+
+        </form>
+    </div>
+</div>
+

@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+<div class="col-md-4">
+    <div class="card shadow p-4">
+
+        <h3 class="text-center mb-4">Login</h3>
+
+        <form method="post" action="/Account/Login">
+
+            <div class="mb-3">
+                <input type="email" name="email" class="form-control" placeholder="Enter Email" required>
+            </div>
+
+            <div class="mb-3">
+                <input type="password" name="password" class="form-control" placeholder="Enter Password" required>
+            </div>
+
+            <button class="btn btn-primary w-100">Login</button>
+
+            <div class="text-center mt-3">
+                <a href="/Account/Register">Register</a> |
+                <a href="/Account/ForgotPassword">Forgot Password?</a>
+            </div>
+
+            <p style="color:red">@ViewBag.Message</p>
+
+        </form>
+    </div>
+</div>
+
+
