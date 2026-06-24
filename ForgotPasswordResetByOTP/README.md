@@ -77,11 +77,11 @@ Configure database connection in Web.config
 
 ![Forgot Password](./Screenshots/ForgotPassword.png)
 
-![Customer Email OTP Sent](./screenshots/OTPSentInEmail.png)
+![Customer Email OTP Sent](./Screenshots/OTPSentInEmail.png)
 
 ![Verify OTP](./Screenshots/VerifyOTP.png)
 
-![Reset Password](./screenshots/ResetPassword.png)
+![Reset Password](./Screenshots/ResetPassword.png)
 
 ## Learning Objectives
 
